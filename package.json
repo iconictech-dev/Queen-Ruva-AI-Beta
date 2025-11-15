@@ -18,7 +18,7 @@
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
-    "baileys": "6.7.18",
+    "baileys": "6.7.21",
     "awesome-phonenumber": "^5.9.0",
     "axios": "^1.4.0",
     "chalk": "^4.1.2",
