@@ -20,7 +20,7 @@ global.queenruva = "👑 𝐐𝐔𝐄𝐄𝐍 𝐑𝐔𝐕𝐀 𝐀𝐈 𝐁𝐄
 /**
  * Command prefix - Character that triggers bot commands
  */
-global.prefix = '!';
+global.prefix = '.';
 
 /**
  * Menu system version
@@ -41,7 +41,7 @@ global.autoread = true;            // Auto read messages
 global.autobio = true;             // Auto biography updates
 global.private = true;             // Enable in private chats
 global.group = true;               // Enable in group chats  
-global.groupadvice = true;
+global.groupadvice = false;
 global.welcome = true;             // Welcome messages for new members
 global.anticall = true;            // Global anti-call protection
 global.audioblock = true;          // Audio message blocking
@@ -64,7 +64,9 @@ global.ignoreGroups = false;       // Ignore group messages
 /**
  * Bot creator and social links
  */
-global.codewave = 'codewave-unit.zone.id';
+global.codewave = 'codewave-unit-force.zone.id';
+global.youwatchmovies = 'codewave-unit-force.zone.id/online/screamer/youwatch';
+global.codewaveapis = 'apis-codewave-unit-force.zone.id'
 global.ownername = "ICONICS-TECH";
 global.ownernumber = '263786115435';
 
@@ -77,7 +79,7 @@ global.location = "📍 Zimbabwe, Bulawayo";
 global.botname = "👑 ǫᴜᴇᴇɴ ʀᴜᴠᴀ ᴀɪ ʙᴇᴛᴀ";
 global.packname = "👑 ǫᴜᴇᴇɴ ʀᴜᴠᴀ ᴀɪ";
 global.author = "⚡ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪᴄᴏɴɪᴄ";
-global.iconic_channel = "📱 https://chat.whatsapp.com/LyFPHDvc5vMCglUFjv7Rlp";
+global.iconic_channel = "https://whatsapp.com/channel/0029Vb7AcUWEquiOvDDqY13Y";
 
 // =============== MESSAGE CONFIGURATION ===============
 /**

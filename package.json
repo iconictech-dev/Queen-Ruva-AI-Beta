@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Queen Ruva AI is your personal girlfriend, not your ex",
   "main": "index.js",
-  "homepage": "https://codewave-unit.zone.id",
+  "homepage": "www.codewave-unit-force.zone.id",
   "directories": {
     "lib": "lib",
     "database": "database",
@@ -31,7 +31,7 @@
     "form-data": "^4.0.0",
     "fs-extra": "^11.1.1",
     "human-readable": "^0.2.1",
-    "jimp": "^0.16.13",
+    "jimp": "^1.6.0",
     "jsdom": "^22.1.0",
     "libphonenumber-js": "^1.12.8",
     "moment-timezone": "^0.5.43",
