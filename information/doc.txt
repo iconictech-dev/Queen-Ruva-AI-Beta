@@ -1,0 +1,123 @@
+# 👑 QUEEN RUVA CONFIGURATION GUIDE
+# Complete Explanation of Global Variables
+
+## 📌 BOOLEAN SETTINGS (TRUE/FALSE)
+
+### 🔧 FEATURE TOGGLES - ENABLE/DISABLE:
+
+# BASIC CHAT SETTINGS
+global.private = true;       ✅ Allows bot to work in private chats (1-on-1)
+global.group = true;         ✅ Allows bot to work in group chats
+global.welcome = true;       ✅ Sends welcome message when users join groups
+global.autoread = true;      ✅ Automatically marks messages as "read"
+
+# SECURITY & PROTECTION
+global.anticall = true;      ✅ Blocks users who call the bot (auto-unblocks after 5min)
+global.audioblock = true;    ✅ Blocks users who send voice notes (5min block)
+global.stickerBlock = true;  ✅ Blocks users who send stickers (5min block)
+global.antilink = true;      ✅ Deletes WhatsApp group links from chats
+global.blockDM = false;      ❌ Allows direct messages (set true to block)
+
+# AUTOMATION FEATURES
+global.autoreact = false;    ❌ Auto-reacts to messages (true = enable)
+global.likestatus = true;    ✅ Auto-likes status updates
+global.chatbot = true;       ✅ AI responds to normal messages (not commands)
+global.savestatus = true;    ✅ Saves status updates to your DM
+
+# STATUS REPLY SYSTEM
+global.statusmessg = true;   ✅ Bot replies to status updates
+global.statusText = "🔥👌";  Message to send when someone posts status
+
+# CHATBOT AUDIO
+global.chataudio = false;    ❌ Converts chatbot responses to audio (TTs)
+
+# DYNAMIC TERMINAL
+global.backenddynamic = false; ❌ Color-changing terminal (true = enable)
+
+## 📌 PREFIX & COMMANDS
+global.prefix = '.';         Command prefix (e.g., .help, .menu)
+
+## 📌 OWNER CONFIGURATION
+global.ownernumber = '263786115435';  Your WhatsApp number (no +)
+global.ownername = "ICONICS-TECH";    Your display name
+
+## 📌 BLOCKED COUNTRIES
+global.blockedCountryCodes = ["+92", "91", "+62"];
+Blocks users from Pakistan (+92), India (91), Indonesia (+62)
+
+## 📌 BOT INFORMATION
+global.botname = "👑 ǫᴜᴇᴇɴ ʀᴜᴠᴀ ᴀɪ ʙᴇᴛᴀ";  Bot display name
+global.queenruva = "𝐐𝐔𝐄𝐄𝐍 𝐑𝐔𝐕𝐀";        Bot response name
+
+## 📌 LINKS & CONTACTS
+global.iconic_channel = "https://whatsapp.com/channel/...";  WhatsApp channel
+global.ytname = "YouTube: https://www.youtube.com/@iconic-tech";
+global.socialm = "GitHub: https://github.com/iconic05";
+
+## 📌 MESSAGE TEMPLATES
+global.mess = {
+    wait: "⏳ Processing your request...",      // When bot is busy
+    error: "❌ Oops! Something went wrong",    // Error message
+    done: "✅ Task completed successfully!",   // Success message
+    owner: "⛔ Owner access required!",         // Non-owner tries owner cmd
+    admin: "⛔ Admin privileges required",      // Non-admin tries admin cmd
+    antilink: "⚠️ Group link sharing is restricted!"  // When link is deleted
+};
+
+## 📌 DM UNAVAILABLE SYSTEM
+global.dmUnavailable = true;  ✅ When true, sends automated message to DMs:
+Message: "DM is currently unavailable. Please wait..."
+
+## 🎯 QUICK SETUP FOR NEW USERS:
+
+1. CHANGE THESE:
+   global.ownernumber = 'YOUR_NUMBER';  // Your WhatsApp number
+   global.ownername = "YOUR_NAME";
+   
+2. DISABLE IF NOT NEEDED:
+   global.audioblock = false;      // Allow voice notes
+   global.stickerBlock = false;    // Allow stickers
+   global.anticall = false;        // Allow calls
+   
+3. ENABLE FOR BETTER EXPERIENCE:
+   global.autoreact = true;        // Auto-react to messages
+   global.backenddynamic = true;   // Fancy terminal colors
+
+## ⚠️ IMPORTANT NOTES:
+
+✅ TRUE = Feature is ACTIVE/ENABLED
+❌ FALSE = Feature is DISABLED/OFF
+
+Example:
+global.antilink = true;   = Bot will delete group links
+global.antilink = false;  = Bot will ignore group links
+
+## 🔧 HOW TO MODIFY:
+
+1. Open config.js file
+2. Find the setting you want to change
+3. Change true/false value
+4. Save the file
+5. Bot auto-reloads changes
+
+Example change:
+FROM: global.chatbot = true;
+TO:   global.chatbot = false;  // Disables AI responses
+
+## 🛠️ TROUBLESHOOTING:
+
+Problem: Bot not responding in groups
+Solution: Set global.group = true;
+
+Problem: Bot blocking voice notes
+Solution: Set global.audioblock = false;
+
+Problem: Bot not working in private chat
+Solution: Set global.private = true;
+
+Problem: Too many automated messages
+Solution: Disable chatbot, autoreact, likestatus
+
+## 📞 SUPPORT:
+Website: www.codewave-unit-force.zone.id
+GitHub: https://github.com/iconictech-dev/Queen-Ruva-AI-Beta
