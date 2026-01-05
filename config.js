@@ -45,7 +45,7 @@ global.location = "Zimbabwe, Bulawayo";
 global.botname = "Queen Ruva";
 global.packname = "Queen Ruva";
 global.author = "Iconic Tech dev";
-global.iconic_channel = "https://whatsapp.com/channel/0029Vb7AcUWEquiOvDDqY13Y";
+global.iconic_channel = "https://whatsapp.com/channel/0029Vb7H0lTGZNCuwI8A7E0i;
 
 global.mess = {
     antilink: "⚠️ Link sharing is not allowed in this group!",
