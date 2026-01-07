@@ -29,7 +29,7 @@ global.chatbotgroup = false;
 global.autoreact = false;
 global.blockDM = false;
 global.statusmessg = true;
-global.statusText = "✌️ hope";
+global.statusText = "😍 hope";
 global.ignoreGroups = false;
 
 global.blockedCountryCodes = ["+92", "91", "+62"];
