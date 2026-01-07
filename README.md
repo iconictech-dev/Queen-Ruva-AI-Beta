@@ -62,7 +62,7 @@
 
 ## ✨ VERSION 3.0 - 2026 FEATURES
 
-### 🤖 CORE AI CAPABILITIES
+### 🤖 CAPABILITIES
 • Advanced Natural Language Processing & Chatbot  
 • Real-time Voice Chat Integration  
 • AI-Powered Text Logo & Design Generation  
@@ -181,9 +181,9 @@ global.botname = "👑 ǫᴜᴇᴇɴ ʀᴜᴠᴀ ᴀɪ ʙᴇᴛᴀ";  Bot displa
 global.queenruva = "𝐐𝐔𝐄𝐄𝐍 𝐑𝐔𝐕𝐀";        Bot response name
 
 ## 📌 LINKS & CONTACTS
-global.iconic_channel = "https://whatsapp.com/channel/...";  WhatsApp channel
-global.ytname = "YouTube: https://www.youtube.com/@iconic-tech";
-global.socialm = "GitHub: https://github.com/iconic05";
+global.iconic_channel = "https://whatsapp.com/channel/0029Vb7H0lTGZNCuwI8A7E0i";  WhatsApp channel
+global.ytname = "YouTube: https://www.youtube.com/@iconictechdev";
+global.socialm = "GitHub: https://github.com/iconictech-dev";
 
 ## 📌 MESSAGE TEMPLATES
 global.mess = {
@@ -252,3 +252,5 @@ Solution: Disable chatbot, autoreact, likestatus
 ## 📞 SUPPORT:
 Website: www.codewave-unit-force.zone.id
 GitHub: https://github.com/iconictech-dev/Queen-Ruva-AI-Beta
+## made with heart by iconic tech dev
+enjoy our service queen ruva v3 best bot
