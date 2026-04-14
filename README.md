@@ -20,6 +20,25 @@
     ✅ <strong>Status:</strong> Fully Operational • All Issues Resolved
   </div>
 
+<!-- Added Badges -->
+<div align="center" style="margin: 20px 0;">
+  <a href="https://github.com/iconictech-dev/Queen-Ruva-AI-Beta/stargazers"><img src="https://img.shields.io/github/stars/iconictech-dev/Queen-Ruva-AI-Beta?style=flat&color=ffcc00" alt="Stars"/></a>
+  <a href="https://github.com/iconictech-dev/Queen-Ruva-AI-Beta"><img src="https://img.shields.io/github/forks/iconictech-dev/Queen-Ruva-AI-Beta?color=ffcc00" alt="Forks"/></a>
+  <a href="https://github.com/iconictech-dev/Queen-Ruva-AI-Beta/blob/main/LICENSE"><img src="https://img.shields.io/github/license/iconictech-dev/Queen-Ruva-AI-Beta?color=ffcc00" alt="License"/></a>
+</div>
+
+## Table of Contents
+
+- [Official Links](#-official-links---proudly-made-in-zimbabwe-)
+- [Project Highlights](#-project-highlights---v30-2026-update)
+- [Version 3.0 Features](#-version-30---2026-features)
+- [Getting Started](#-getting-started)
+- [Configuration Guide](#-queen-ruva-configuration-guide)
+- [Support](#-support)
+
+---
+
+
 </div>
 
 <div align="center">
