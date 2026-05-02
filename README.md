@@ -150,7 +150,7 @@ global.antilink = true;      ✅ Deletes WhatsApp group links from chats
 global.blockDM = false;      ❌ Allows direct messages (set true to block)
 
 # AUTOMATION FEATURES
-global.autoreact = false;    ❌ Auto-reacts to messages (true = enable)
+global.autoreact = true;    ✅ Auto-reacts to messages (true = enable)
 global.likestatus = true;    ✅ Auto-likes status updates
 global.chatbot = true;       ✅ AI responds to normal messages (not commands)
 global.savestatus = true;    ✅ Saves status updates to your DM
