@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://files.catbox.moe/iz9aao.jpg" width="100%" style="max-width:600px; border-radius:20px;"/>
+<img src="https://i.postimg.cc/PqdWtvQ5/file-000000009e787243a6fd3ba4aa469378.png" width="140" alt="Queen Ruva AI Logo"/>
 
 <br/>
 
@@ -12,15 +12,19 @@
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=FFCC00&center=true&vCenter=true&width=600&lines=670%2B+Commands+%F0%9F%94%A5;Ultra+Fast+Response+%E2%9A%A1;Full+Dashboard+Control+%F0%9F%96%A5%EF%B8%8F;Long+Lasting+Connection+%F0%9F%94%81;Weekly+New+Features+%F0%9F%93%85" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=670%2B+Commands+%F0%9F%94%A5;Ultra+Fast+Response+%E2%9A%A1;Full+Dashboard+Control+%F0%9F%96%A5%EF%B8%8F;Long+Lasting+Connection+%F0%9F%94%81;Weekly+New+Features+%F0%9F%93%85" alt="Typing SVG"/>
 
 <br/>
 
-[![Version](https://img.shields.io/badge/VERSION-3.0_STABLE-ffcc00?style=for-the-badge&labelColor=000000&logo=checkmarx&logoColor=ffcc00)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta)
-[![Status](https://img.shields.io/badge/STATUS-FULLY_OPERATIONAL-00e676?style=for-the-badge&labelColor=000000&logo=statuspal&logoColor=00e676)](https://silentbyte-plantforms-inc.zone.id)
-[![Platform](https://img.shields.io/badge/SILENTBYTE_PLATFORMS_INC-ffcc00?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
-[![Zimbabwe](https://img.shields.io/badge/MADE_IN-🇿🇼_ZIMBABWE-009a44?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
-[![Commands](https://img.shields.io/badge/COMMANDS-670%2B-ffcc00?style=for-the-badge&labelColor=000000&logo=whatsapp&logoColor=25D366)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF7A00,49:FF7A00,50:00D4FF,100:00D4FF&height=4&width=700"/>
+
+<br/>
+
+[![Version](https://img.shields.io/badge/VERSION-3.0_STABLE-FF7A00?style=for-the-badge&labelColor=000000)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta)
+[![Status](https://img.shields.io/badge/STATUS-FULLY_OPERATIONAL-00D4FF?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
+[![Platform](https://img.shields.io/badge/SILENTBYTE_PLATFORMS_INC-FF7A00?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
+[![Zimbabwe](https://img.shields.io/badge/MADE_IN-🇿🇼_ZIMBABWE-00D4FF?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
+[![Commands](https://img.shields.io/badge/COMMANDS-670%2B-FF7A00?style=for-the-badge&labelColor=000000)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta)
 
 <br/>
 
@@ -38,7 +42,7 @@
 
 <div align="center">
 
-## 🔥 `v3.0 · 2026 · WHAT'S NEW`
+## `v3.0 · 2026 · WHAT'S NEW`
 
 </div>
 
@@ -60,7 +64,7 @@
 
 <div align="center">
 
-## ✨ `FEATURES`
+## `FEATURES`
 
 </div>
 
@@ -89,7 +93,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=iconictech-dev&repo=Queen-Ruva-AI-Beta&theme=dark&title_color=ffcc00&icon_color=ffcc00&text_color=ffffff&bg_color=000000&border_color=ffcc00" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=iconictech-dev&repo=Queen-Ruva-AI-Beta&theme=dark&title_color=FF7A00&icon_color=00D4FF&text_color=ffffff&bg_color=000000&border_color=FF7A00" />
 
 </div>
 
@@ -97,7 +101,7 @@
 
 <div align="center">
 
-## 🚀 `QUICK START`
+## `QUICK START`
 
 </div>
 
@@ -110,7 +114,7 @@
 2. Copy the pairing code
 3. WhatsApp → Settings → Linked Devices → Link a Device
 4. Paste the code
-5. Open your DM → Download  creds.json
+5. Open your DM → Download creds.json
 ```
 
 ### `STEP 2` — Fork & Setup
@@ -124,9 +128,9 @@
 
 <div align="center">
 
-[![Render](https://img.shields.io/badge/🚀_DEPLOY_TO_RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=white&labelColor=121217)](https://render.com/deploy)
-[![Heroku](https://img.shields.io/badge/🐬_DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=121217)](https://heroku.com/deploy)
-[![Bot Hosting](https://img.shields.io/badge/🖥️_BOT_HOSTING_(40_FREE_COINS)-ffcc00?style=for-the-badge&labelColor=000000)](https://bot-hosting.net/?aff=1430906124802195496)
+[![Render](https://img.shields.io/badge/🚀_DEPLOY_TO_RENDER-FF7A00?style=for-the-badge&labelColor=000000)](https://render.com/deploy)
+[![Heroku](https://img.shields.io/badge/🐬_DEPLOY_TO_HEROKU-00D4FF?style=for-the-badge&labelColor=000000)](https://heroku.com/deploy)
+[![Bot Hosting](https://img.shields.io/badge/🖥️_BOT_HOSTING_(40_FREE_COINS)-FF7A00?style=for-the-badge&labelColor=000000)](https://bot-hosting.net/?aff=1430906124802195496)
 
 </div>
 
@@ -161,7 +165,7 @@ node .
 
 <div align="center">
 
-## 🖥️ `DASHBOARD`
+## `DASHBOARD`
 
 ### 🔗 [queen-ruva-dashboard.zone.id](https://queen-ruva-dashboard.zone.id)
 
@@ -184,7 +188,7 @@ node .
 
 <div align="center">
 
-## ⚙️ `CONFIGURATION`
+## `CONFIGURATION`
 
 </div>
 
@@ -243,7 +247,7 @@ global.savestatus     = true;    // Save status to DM
 
 <div align="center">
 
-## 🛠️ `TROUBLESHOOTING`
+## `TROUBLESHOOTING`
 
 </div>
 
@@ -259,25 +263,27 @@ global.savestatus     = true;    // Save status to DM
 
 <div align="center">
 
-## 🔗 `OFFICIAL LINKS`
+## `OFFICIAL LINKS`
 
 <br/>
 
-[![Website](https://img.shields.io/badge/🌐_OFFICIAL_WEBSITE-ffcc00?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
-[![Dashboard](https://img.shields.io/badge/🖥️_DASHBOARD-ffaa00?style=for-the-badge&labelColor=000000)](https://queen-ruva-dashboard.zone.id)
-[![Session](https://img.shields.io/badge/🔑_SESSION_ID-64c8ff?style=for-the-badge&labelColor=000000)](https://queen-ruva-session-id.zone.id/)
+[![Website](https://img.shields.io/badge/🌐_OFFICIAL_WEBSITE-FF7A00?style=for-the-badge&labelColor=000000)](https://silentbyte-plantforms-inc.zone.id)
+[![Dashboard](https://img.shields.io/badge/🖥️_DASHBOARD-00D4FF?style=for-the-badge&labelColor=000000)](https://queen-ruva-dashboard.zone.id)
+[![Session](https://img.shields.io/badge/🔑_SESSION_ID-FF7A00?style=for-the-badge&labelColor=000000)](https://queen-ruva-session-id.zone.id/)
 
-[![Community](https://img.shields.io/badge/🤝_WHATSAPP_COMMUNITY-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000)](https://chat.whatsapp.com/LyFPHDvc5vMCglUFjv7Rlp?mode=gi_t)
-[![Channel](https://img.shields.io/badge/📢_OFFICIAL_CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000)](https://whatsapp.com/channel/0029Vak32nE4o7qP75htEB3I)
-[![YouTube](https://img.shields.io/badge/📺_YOUTUBE-ff0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/@iconictechdev)
-[![GitHub](https://img.shields.io/badge/💻_GITHUB-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=000000)](https://github.com/iconictech-dev)
-[![Hosting](https://img.shields.io/badge/🖥️_BOT_HOSTING-ffcc00?style=for-the-badge&labelColor=000000)](https://bot-hosting.net/?aff=1430906124802195496)
+[![Community](https://img.shields.io/badge/🤝_WHATSAPP_COMMUNITY-00D4FF?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=000000)](https://chat.whatsapp.com/LyFPHDvc5vMCglUFjv7Rlp?mode=gi_t)
+[![Channel](https://img.shields.io/badge/📢_OFFICIAL_CHANNEL-FF7A00?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=000000)](https://whatsapp.com/channel/0029Vak32nE4o7qP75htEB3I)
+[![YouTube](https://img.shields.io/badge/📺_YOUTUBE-00D4FF?style=for-the-badge&logo=youtube&logoColor=black&labelColor=000000)](https://www.youtube.com/@iconictechdev)
+[![GitHub](https://img.shields.io/badge/💻_GITHUB-FF7A00?style=for-the-badge&logo=github&logoColor=black&labelColor=000000)](https://github.com/iconictech-dev)
+[![Hosting](https://img.shields.io/badge/🖥️_BOT_HOSTING-00D4FF?style=for-the-badge&labelColor=000000)](https://bot-hosting.net/?aff=1430906124802195496)
 
 </div>
 
 ---
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00D4FF,49:00D4FF,50:FF7A00,100:FF7A00&height=4&width=700"/>
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
@@ -293,9 +299,9 @@ global.savestatus     = true;    // Save status to DM
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
-[![Stars](https://img.shields.io/github/stars/iconictech-dev/Queen-Ruva-AI-Beta?style=for-the-badge&color=ffcc00&labelColor=000000)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta/stargazers)
-[![Forks](https://img.shields.io/github/forks/iconictech-dev/Queen-Ruva-AI-Beta?style=for-the-badge&color=ffcc00&labelColor=000000)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta/network/members)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=iconictech-dev.Queen-Ruva-AI-Beta&left_color=000000&right_color=ffcc00&left_text=VISITORS)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta)
+[![Stars](https://img.shields.io/github/stars/iconictech-dev/Queen-Ruva-AI-Beta?style=for-the-badge&color=FF7A00&labelColor=000000)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta/stargazers)
+[![Forks](https://img.shields.io/github/forks/iconictech-dev/Queen-Ruva-AI-Beta?style=for-the-badge&color=00D4FF&labelColor=000000)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta/network/members)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=iconictech-dev.Queen-Ruva-AI-Beta&left_color=000000&right_color=FF7A00&left_text=VISITORS)](https://github.com/iconictech-dev/Queen-Ruva-AI-Beta)
 
 *© 2026 Iconic Tech · Silentbyte Platforms Inc · All Rights Reserved*
 
