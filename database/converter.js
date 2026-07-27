@@ -1,4 +1,3 @@
-//* CREATED BY ICONIC TECH
 const fs = require('fs')
 const path = require('path')
 const { spawn } = require('child_process')
@@ -6,22 +5,18 @@ const { spawn } = require('child_process')
 function ffmpeg(buffer, args = [], ext = '', ext2 = '') {
   return new Promise(async (resolve, reject) => {
     try {
-      let tmp = path.join(__dirname, '../database', + new Date + '.' + ext)
-      let out = tmp + '.' + ext2
+      let tmp = path.join('/tmp', `${Date.now()}.${ext}`)
+      let out = `${tmp}.${ext2}`
       await fs.promises.writeFile(tmp, buffer)
-      spawn('ffmpeg', [
-        '-y',
-        '-i', tmp,
-        ...args,
-        out
-      ])
+      spawn('ffmpeg', ['-y', '-i', tmp, ...args, out])
         .on('error', reject)
         .on('close', async (code) => {
           try {
             await fs.promises.unlink(tmp)
             if (code !== 0) return reject(code)
-            resolve(await fs.promises.readFile(out))
+            let result = await fs.promises.readFile(out)
             await fs.promises.unlink(out)
+            resolve(result)
           } catch (e) {
             reject(e)
           }
@@ -32,11 +27,6 @@ function ffmpeg(buffer, args = [], ext = '', ext2 = '') {
   })
 }
 
-/**
- * Convert Audio to Playable WhatsApp Audio
- * @param {Buffer} buffer Audio Buffer
- * @param {String} ext File Extension 
- */
 function toAudio(buffer, ext) {
   return ffmpeg(buffer, [
     '-vn',
@@ -47,26 +37,17 @@ function toAudio(buffer, ext) {
   ], ext, 'mp3')
 }
 
-/**
- * Convert Audio to Playable WhatsApp PTT
- * @param {Buffer} buffer Audio Buffer
- * @param {String} ext File Extension 
- */
 function toPTT(buffer, ext) {
   return ffmpeg(buffer, [
     '-vn',
     '-c:a', 'libopus',
     '-b:a', '128k',
     '-vbr', 'on',
-    '-compression_level', '10'
-  ], ext, 'opus')
+    '-compression_level', '10',
+    '-f', 'ogg'
+  ], ext, 'ogg')
 }
 
-/**
- * Convert Audio to Playable WhatsApp Video
- * @param {Buffer} buffer Video Buffer
- * @param {String} ext File Extension 
- */
 function toVideo(buffer, ext) {
   return ffmpeg(buffer, [
     '-c:v', 'libx264',
@@ -78,13 +59,4 @@ function toVideo(buffer, ext) {
   ], ext, 'mp4')
 }
 
-module.exports = {
-  toAudio,
-  toPTT,
-  toVideo,
-  ffmpeg,
-}
-/* we no have time to encrypted our private functioning if there no our official base thank you
-.............................................. QUEEN RUVA AI BETA 
-/* created by iconic tech Visit our website at
-codewave-unit.zone.id */
+module.exports = { toAudio, toPTT, toVideo, ffmpeg }

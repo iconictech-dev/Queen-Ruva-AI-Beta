@@ -4,7 +4,7 @@ const {
     proto,
     delay,
     getContentType
-} = require('baileys')
+} = require('queenruva-sockets')
 const chalk = require('chalk')
 const fs = require('fs')
 const Crypto = require('crypto')
@@ -238,7 +238,10 @@ exports.parseMention = (text = '') => {
 exports.getGroupAdmins = (participants) => {
     let admins = []
     for (let i of participants) {
-        i.admin === "superadmin" ? admins.push(i.id) : i.admin === "admin" ? admins.push(i.id) : ''
+        if (i.admin === "superadmin" || i.admin === "admin") {
+            admins.push(i.id)
+            if (i.phoneNumber) admins.push(i.phoneNumber.replace(/[^0-9]/g, '') + '@s.whatsapp.net')
+        }
     }
     return admins || []
 }
