@@ -5,7 +5,7 @@ const { fs, path, chalk } = {
 };
 
 // Queen Ruva AI - Bot identity
-global.queenruva = "QUEEN RUVA";
+global.queenruva = "*✦ Q U E E N   R U V A   A I ✦*";
 
 // Command prefix for bot interaction
 global.prefix = ".";
@@ -80,7 +80,7 @@ global.autoreact = false;
 global.statusmessg = false;
 
 // Default status text
-global.statusText = "✌️ hope";
+global.statusText = "📨";
 
 global.blockedCountryCodes = ["91,61"];
 // Codewave - Iconic Tech portal site for advanced tools and services
@@ -109,8 +109,8 @@ global.socialm = "GitHub: https://github.com/iconictech-dev";
 global.location = "Zimbabwe, Bulawayo";
 
 // Bot identity
-global.botname = "Queen Ruva";
-global.packname = "Queen Ruva";
+global.botname = "Q U E E N   R U V A   A I";
+global.packname = "Q U E E N   R U V A   A I";
 
 // Author / developer credit
 global.author = "Iconic Tech dev";
@@ -139,11 +139,11 @@ fs.watchFile(file, () => {
     require(file);
 });
 // Load random thumbnail from QueenMedia folder (do not modify unless you know what you're doing)
-const thumbnails = ["ruva.jpg", "ruva2.jpg"],
+const thumbnails = ["ruva.jpg"],
   randomThumb = thumbnails[Math.floor(Math.random() * thumbnails.length)];
 
 global.thumb = fs.readFileSync(path.join("./QueenMedia", randomThumb));
 
-console.log(chalk.green('QUEEN RUVA AI - Configuration loaded successfully.'));
+console.log(chalk.green('✦ Q U E E N   R U V A   A I ✦- 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐓𝐈𝐎𝐍 𝐋𝐎𝐀𝐃𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘.'));
 
 // Read documentation: ./information/doc.txt

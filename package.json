@@ -1,24 +1,43 @@
 {
-  "name": "Queen-RUVA",
-  "version": "3.0.0",
-  "description": "Queen Ruva AI is your personal girlfriend, not your ex",
+  "name": "Queen-Ruva-AI-Beta",
+  "version": "3.0.0-beta.1",
+  "description": "Queen Ruva AI powered by queenruva-sockets. Clean, fast, and built for real-time intelligent interaction.",
   "main": "index.js",
-  "homepage": "www.codewave-unit-force.zone.id",
+  "homepage": "https://queen-ruva-dashboard.zone.id",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconictech-dev/Queen-Ruva-AI-Beta.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot",
+    "baileys",
+    "queenruva",
+    "ai-bot",
+    "automation",
+    "bot-engine",
+    "sockets"
+  ],
   "directories": {
-    "lib": "lib",
-    "database": "database",
-    "session": "session",
-    "media": "media"
+    "modules": "./modules",
+    "database": "./database",
+    "session": "./session",
+    "media": "./QueenMedia"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2": "pm2 start index.js --name Queen-Ruva-AI-Beta"
   },
-  "author": "ɪᴄᴏɴɪᴄ ᴛᴇᴄʜ",
+  "author": "Iconic Tech Inc.",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
-    "baileys": "6.7.21",
+  "queenruva-sockets": "latest",
     "awesome-phonenumber": "^5.9.0",
     "axios": "^1.4.0",
     "chalk": "^4.1.2",
@@ -55,5 +74,7 @@
     "ytdl-core": "^4.11.5",
     "pm2": "^5.2.0"
   },
-  "developed_by": "ICONIC TECH"
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
 }
